@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.main{
+    margin-top: 200px;   
+}
+
+.container{
+    margin:  0 auto;
+    width: 375px;
+    height: 550px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.itens{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.itens img{
+    width: 320px;
+    border-radius: 5%;
+}
+
+.itens .titulo{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-weight: 700;
+}
+
+.itens .paragrafo{
+    width: 280px;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    text-align: center;
+}
+
+
